@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://raw.githubusercontent.com/hericmr/ru_api/main/cache',
+  baseURL: import.meta.env.VITE_API_URL || 'https://raw.githubusercontent.com/hericmr/ru_api/main/cache/',
 });
 
 export const getMenu = async () => {
