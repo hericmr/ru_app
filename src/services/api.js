@@ -5,7 +5,7 @@ const api = axios.create({
 });
 
 export const getMenu = async () => {
-  const response = await api.get('/menu.json');
+  const response = await api.get('menu.json');
   return response.data;
 };
 

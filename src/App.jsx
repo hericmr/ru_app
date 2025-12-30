@@ -36,7 +36,7 @@ function App() {
         setSelectedDay(days[0]);
       }
     } catch (err) {
-      setError('Falha ao carregar o cardápio. Verifique se o servidor API está rodando.');
+      setError('Falha ao carregar o cardápio. Verifique sua conexão ou se o repositório da API está acessível.');
       console.error(err);
     } finally {
       setLoading(false);
@@ -147,7 +147,7 @@ function App() {
       {/* Decorative Background Image */}
       <Box
         component="img"
-        src="/unnamed-removebg-preview(1).png"
+        src="unnamed-removebg-preview(1).png"
         sx={{
           position: 'fixed',
           top: '50%',
