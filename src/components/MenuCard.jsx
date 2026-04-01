@@ -73,7 +73,7 @@ const MenuCard = ({ mealData, type }) => {
                 <CardContent sx={{ p: 3 }}>
                     <SectionItem
                         icon={isMonday ? Leaf : Drumstick}
-                        label="Prato Principal"
+                        label="Opção Carnista"
                         value={formatMenuString(itens.prato_principal)}
                         color={isMonday ? "#81C784" : "#FF5252"}
                     />
